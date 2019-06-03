@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Primeiro teste</title>
+
+    <style>
+        body {
+            font: normal 18px Arial;
+            padding: 20px;
+        }
+
+        div#div1 {
+            float: left;
+            width: 200px;
+            line-height: 200px;
+            text-align: center;
+            background: #3f8eff;
+            color: #FFFFFF;
+        }
+
+        div#div2 {
+            float: left;
+            width: 200px;
+            line-height: 200px;
+            text-align: center;
+            background: crimson;
+            color: #FFFFFF;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="div1">
+        primeiro
+    </div>
+
+    <div id="div2">
+        primeiro
+    </div>
+
+    <script>
+
+        document.getElementById('div1').addEventListener('mouseenter', entrar);
+        document.getElementById('div1').addEventListener('mouseout', sair);
+
+        function entrar() {
+            document.getElementById('div1').style.background = 'grey';
+        }
+
+        function sair() {
+            document.getElementById('div1').style.background = '#3f8eff';
+        }
+
+
+        function exibe() {
+        }
+    </script>
+
+</body>
+</html>

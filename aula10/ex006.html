@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eventos DOM</title>
+
+    <style>
+        div#area {
+            font: normal 20pt Arial;
+            background: darkslategray;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="area">
+        Interaja...
+    </div>
+
+
+    <script>
+
+        document.getElementById('area').addEventListener('mouseenter', entrar);
+        document.getElementById('area').addEventListener('mouseout', sair);
+
+
+        function entrar() {
+            document.getElementById('area').innerText = 'entrou';
+            document.getElementById('area').style.background = 'green';
+        }
+
+        function sair() {
+            document.getElementById('area').innerText = 'sair';
+            document.getElementById('area').style.background = 'red';
+        }
+    </script>
+
+</body>
+</html>
