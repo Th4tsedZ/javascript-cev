@@ -12,7 +12,7 @@ function calcular() {
             mult = num * i;
             let item = document.createElement('option');
             item.text = `${num} x ${i} = ${mult}`;
-            item.value = `tab${i}`
+            item.value = `tab${i}`;
             tab.appendChild(item);
         }
     }

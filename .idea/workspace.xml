@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8825ed77-1ca9-481c-8e88-5c58e2fa5b21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/aula15/ambiente.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula16/funcao01.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula16/funcao02.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula16/funcao03.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula16/funcao04.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula16/funcao05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula16ex/ex018/estilo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula16ex/ex018/modelo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula16ex/ex018/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula17/objeto01.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula14ex/ex017/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/aula14ex/ex017/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,7 +19,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aula17/objeto01.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,6 +38,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>m</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,14 +58,20 @@
         <option value="$PROJECT_DIR$/aula16/FUNCAO03.js" />
         <option value="$PROJECT_DIR$/aula16/funcao04.js" />
         <option value="$PROJECT_DIR$/aula16/funcao05.js" />
+        <option value="$PROJECT_DIR$/aula14ex/ex017/script.js" />
+        <option value="$PROJECT_DIR$/aula16ex/modelo/estilo.css" />
+        <option value="$PROJECT_DIR$/aula16ex/modelo/modelo.html" />
+        <option value="$PROJECT_DIR$/aula16ex/modelo/script.js" />
+        <option value="$PROJECT_DIR$/aula16ex/ex018/estilo.css" />
+        <option value="$PROJECT_DIR$/aula16ex/ex018/script.js" />
+        <option value="$PROJECT_DIR$/aula17/objeto01.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-84" />
-    <option name="y" value="57" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -68,6 +88,11 @@
               <item name="javascript-cev" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript-cev" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javascript-cev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javascript-cev" type="462c0819:PsiDirectoryNode" />
+              <item name="aula17" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -79,7 +104,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/aula005/ex001.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aula16ex" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -91,6 +116,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projetos javascript\javascript-cev\aula16ex" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -104,35 +134,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.funcao05.js">
-    <configuration name="ex001.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript-cev/aula005/ex001.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="Node.js.objeto01.js">
+    <configuration name="modelo.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript-cev/aula16ex/ex018/modelo.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="modelo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript-cev/aula16ex/modelo/modelo.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" path-to-node="C:/Program Files/nodejs/node">
-      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
-        <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      </EXTENSION>
-      <method v="2" />
-    </configuration>
-    <configuration name="funcao01.js" type="NodeJSConfigurationType" temporary="true" path-to-node="C:/Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="funcao01.js" working-dir="$PROJECT_DIR$/aula16">
-      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
-        <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      </EXTENSION>
-      <method v="2" />
-    </configuration>
-    <configuration name="funcao02.js" type="NodeJSConfigurationType" temporary="true" path-to-node="C:/Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="funcao02.js" working-dir="$PROJECT_DIR$/aula16">
-      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
-        <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      </EXTENSION>
-      <method v="2" />
-    </configuration>
-    <configuration name="funcao03.js" type="NodeJSConfigurationType" temporary="true" path-to-node="C:/Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/aula16/funcao03.js" working-dir="$PROJECT_DIR$/aula16">
-      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
-        <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      </EXTENSION>
-      <method v="2" />
-    </configuration>
-    <configuration name="funcao04.js" type="NodeJSConfigurationType" temporary="true" path-to-node="C:/Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="funcao04.js" working-dir="$PROJECT_DIR$/aula16">
       <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
         <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       </EXTENSION>
@@ -144,13 +153,25 @@
       </EXTENSION>
       <method v="2" />
     </configuration>
+    <configuration name="objeto01.js" type="NodeJSConfigurationType" temporary="true" path-to-node="C:/Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="objeto01.js" working-dir="$PROJECT_DIR$/aula17">
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+        <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" path-to-node="C:/Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/aula16ex/ex018/script.js" working-dir="$PROJECT_DIR$/aula16ex/ex018">
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+        <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.objeto01.js" />
+        <item itemvalue="JavaScript Debug.modelo.html (1)" />
+        <item itemvalue="Node.js.script.js" />
+        <item itemvalue="JavaScript Debug.modelo.html" />
         <item itemvalue="Node.js.funcao05.js" />
-        <item itemvalue="Node.js.funcao04.js" />
-        <item itemvalue="Node.js.funcao03.js" />
-        <item itemvalue="Node.js.funcao02.js" />
-        <item itemvalue="Node.js.funcao01.js" />
       </list>
     </recent_temporary>
   </component>
@@ -167,21 +188,24 @@
       <workItem from="1559042018180" duration="2292000" />
       <workItem from="1559129775455" duration="7703000" />
       <workItem from="1559562798753" duration="6298000" />
+      <workItem from="1559591705499" duration="6165000" />
+      <workItem from="1559598001350" duration="2682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16293000" />
+    <option name="totallyTimeSpent" value="25140000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11064278" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.110042736" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32286024" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32275712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -206,52 +230,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aula05/ex001.html">
+    <entry file="file://$PROJECT_DIR$/aula05/ex001.html" />
+    <entry file="file://$PROJECT_DIR$/aula15/ambiente.js" />
+    <entry file="file://$PROJECT_DIR$/aula16/funcao01.js" />
+    <entry file="file://$PROJECT_DIR$/aula16/funcao02.js" />
+    <entry file="file://$PROJECT_DIR$/aula16/funcao03.js" />
+    <entry file="file://$PROJECT_DIR$/aula16/funcao04.js" />
+    <entry file="file://$PROJECT_DIR$/aula16/funcao05.js" />
+    <entry file="file://$PROJECT_DIR$/aula14ex/ex017/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="231">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aula15/ambiente.js">
+    <entry file="file://$PROJECT_DIR$/aula16ex/ex018/modelo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        <state relative-caret-position="245">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aula16/funcao01.js">
+    <entry file="file://$PROJECT_DIR$/aula16ex/ex018/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="336">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aula16/funcao02.js">
+    <entry file="file://$PROJECT_DIR$/aula16ex/ex018/estilo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="588">
+          <caret line="28" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aula16/funcao03.js">
+    <entry file="file://$PROJECT_DIR$/aula17/objeto01.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aula16/funcao04.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aula16/funcao05.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" />
+        <state relative-caret-position="252">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
